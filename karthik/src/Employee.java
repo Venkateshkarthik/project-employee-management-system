@@ -16,6 +16,8 @@ public class Employee {
      	  pst.setInt(1,101);
      	  pst.setString(2,"raghu");
      	  pst.setInt(3,1000);
+        pst.setLong(4,9876543291L);
+        pst.setString(5,"trichy");
      	  pst.executeUpdate();
   		  con.close();
     	  
