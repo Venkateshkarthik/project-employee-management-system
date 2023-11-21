@@ -19,7 +19,7 @@ public class Employee {
         pst.setLong(4,9876543291L);
         pst.setString(5,"trichy");
      	  pst.executeUpdate();
-  		  con.close();
+  	  con.close();
     	  
       }
 }
